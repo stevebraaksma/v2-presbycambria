@@ -1,0 +1,23 @@
+------------------------------------------
+ CREDITS
+------------------------------------------
+
+    - Bootstrap 5              -    https://getbootstrap.com
+
+    - Font Awesome             -    https://fontawesome.com
+
+    - Swiper.js                -    https://swiperjs.com/
+
+    - Countdown.js             -    https://www.cssscript.com/easy-datetime-countdown-timer-countdown-js/
+
+    - Progressbar.js           -    https://progressbarjs.readthedocs.io/en/latest/
+
+
+
+------------------------------------------
+ IMAGES
+------------------------------------------
+
+    - All images credits go to https://www.pexels.com
+
+    - Logos & Illustrations  -  https://www.freepik.com
