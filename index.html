@@ -32,6 +32,32 @@
     data-bs-offset="0"
     tabindex="0"
   >
+
+
+
+
+<!-- per docs, placing modal at top of body to avoid interference  -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Weekly Bulletins</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="append-things-here">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="clicking-here-will-show-more">View More</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
     <!-- navbar-->
     <header class="header">
       <nav
@@ -139,9 +165,14 @@
                     >Watch Online</a
                   >
                 </div>
+                <div class="col-lg-7 mx-auto mt-4">
+                  <!-- Button trigger modal -->
+                  <a id="attach-event-listener-to-show" class="btn btn-outline-light px-4" href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal">Weekly Bulletins</a>
+                </div>
               </div>
             </div>
           </div>
+          
 
           <!-- <div
             class="swiper-slide hero-slide bg-cover py-5 with-border-image d-flex align-items-center"
@@ -277,7 +308,7 @@
     </section>
 
     <!-- Events Section-->
-    <section class="py-5" id="events">
+    <!-- <section class="py-5" id="events">
       <div class="container py-5">
         <header class="mb-4 text-center mb-5">
           <p class="text-serif mb-0 text-primary">Community Happenings</p>
@@ -297,23 +328,23 @@
               </div>
             </div>
             <div class="col-lg-6 text-center">
-              <h4 class="text-primary mb-1">
+              <h4 class="text-primary mb-1"> -->
                 <!-- <a class="reset-anchor" href="text.html"
                   >Building a Church Fellowship</a
                 > -->
-                <p>Building a Church Fellowship</p>
+                <!-- <p>Building a Church Fellowship</p>
               </h4>
               <p class="text-serif mb-0 text-muted">
                 April 13, 2019 - October 14, 2022
               </p>
               <p class="text-serif mb-0 text-muted">New York</p>
-            </div>
+            </div> -->
             <!-- <div class="col-lg-3 text-lg-end">
               <a class="btn btn-outline-primary px-4" href="text.html"
                 >Find out more</a
               >
             </div> -->
-          </div>
+          <!-- </div>
         </div>
         <div class="p-4 p-lg-5 bg-light text-center">
           <div class="row gy-4 align-items-center">
@@ -329,24 +360,24 @@
               </div>
             </div>
             <div class="col-lg-6 text-center">
-              <h4 class="text-primary mb-1">
+              <h4 class="text-primary mb-1"> -->
                 <!-- <a class="reset-anchor" href="text.html">Sermon: Hope For Us</a> -->
-                <p>Sermon: Hope For Us</p>
+                <!-- <p>Sermon: Hope For Us</p>
               </h4>
               <p class="text-serif mb-0 text-muted">
                 April 13, 2019 - October 14, 2022
               </p>
               <p class="text-serif mb-0 text-muted">New York</p>
-            </div>
+            </div> -->
             <!-- <div class="col-lg-3 text-lg-end">
               <a class="btn btn-outline-primary px-4" href="text.html"
                 >Find out more</a
               >
             </div> -->
-          </div>
+          <!-- </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Works Section-->
     <section id="works">
@@ -834,6 +865,7 @@
     <script src="js/countdown.js"></script>
     <script src="vendor/progressbar.js/progressbar.js"></script>
     <script src="js/front.js"></script>
+    <script src="js/news.js"></script>
     <script>
       // ------------------------------------------------------- //
       //   Inject SVG Sprite -

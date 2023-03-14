@@ -1,5 +1,16 @@
 /* your styles go here */
 
+/* this is to hide extra bulletins  */
+#my-list li:nth-child(n+4) {
+    display: none;
+  }
+  
+
+#append-things-here > ul {
+    list-style: none;
+    font-size: 20px;
+}
+
 
 
 
